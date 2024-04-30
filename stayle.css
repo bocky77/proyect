@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+header{
+    display: flex;
+background: black;
+align-items: center;
+padding:10px ;
+justify-content: space-between;
+min-height: 70%;
+
+}
+.logo{
+align-items: center;
+display: flex;
+
+}
+.logo img{
+margin: 10px;
+width: 50px;
+    height: 50px;
+}
+.s{
+color: white;
+
+}
+nav{
+font-weight: 600px;
+padding:10px;
+
+}
+nav a:hover{
+    color: aqua;
+}
+nav a{
+color: white;
+
+}
+
+@media (max-width:650px){
+header{
+        flex-direction: column;
+
+
+}
+nav{
+    padding: 10px 0;
+}
+
+
+
+}
